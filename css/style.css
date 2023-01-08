@@ -13,11 +13,10 @@ amarillo    #F2E52E
 naranja     #F2C335
 gris        #F2F2F2
 logo FetPat #0055A2
-
 Fonts
 font-family: 'Roboto', sans-serif;
-
 */
+
 
 /* -- Header -- */
 .header{
@@ -64,14 +63,12 @@ font-family: 'Roboto', sans-serif;
     border-top: 1px solid #aaaaaa;
     border-bottom: 1px solid #ffffff;
 }
-
 .footer{
     /* background-color: pink; */
     width: 100%;
     height: 140px;
     margin-top: 20px;
     padding-left: 50px;
-
     /* Textos */
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -92,7 +89,6 @@ font-family: 'Roboto', sans-serif;
     margin-left: 50px;
     margin-right: 15px;
 }
-
 .qrAfip{
     width: 60px;
     height: 90px;
@@ -108,7 +104,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-/* -- Main -- */
+/* -- index.html >> Home -- */
 .homeSeccTitulo{
     background-image:url("../assets/img/guarda_hogar.webp");
     width: 100%;
@@ -194,7 +190,6 @@ font-family: 'Roboto', sans-serif;
     top: -15px;
     margin: 5px;
 }
-
 .logosCompanias{
     background-color: #D3D0D0;
     width: 100%;
@@ -206,7 +201,8 @@ font-family: 'Roboto', sans-serif;
     margin-right: auto;
 }
 
-/* Pagina quienes somos */
+
+/* quienes.html >> Quienes somos */
 .quienBlanco{
     background-color: white;
     width: 100%;
@@ -237,7 +233,8 @@ font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
 }
 
-/* Contacto */
+
+/* contacto.html >> Contacto */
 .contactoFondo{
     background-image:url("../assets/img/contacto-fedpat.png");
     width: 100%;
@@ -269,3 +266,9 @@ font-family: 'Roboto', sans-serif;
     /* margin-left: 650px;
     margin-top: -380px; */
 }
+
+
+/* cotiza.html >> Cotizá tu seguro */
+
+
+/* servicios.html >> Conocé nuestros servicios */
