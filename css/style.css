@@ -28,7 +28,7 @@ font-family: 'Roboto', sans-serif;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: 130px;
     grid-template-areas: 
-    "logo logo menu menu menu menu";
+    "logo menu menu menu menu menu";
     justify-content: center;  /* mueve el contenedor eje X */
     align-items: center;      /* mueve el contenedor eje Y */
 }
@@ -117,6 +117,7 @@ font-family: 'Roboto', sans-serif;
 }
 .ssn{
     grid-area: ssn;
+    justify-self:center;
 }
 .matricula{
     grid-area: matricula;
@@ -139,11 +140,7 @@ font-family: 'Roboto', sans-serif;
 .logoRedes{
     width: 32px;
     height: 32px;
-    margin-right: 15px;
-}
-.logoSNN{
-    margin-left: 150px;
-    margin-right: 150px;
+    /* margin-right: 15px; */
 }
 
 
@@ -316,16 +313,87 @@ font-family: 'Roboto', sans-serif;
 
 /* servicios.html >> Conocé nuestros servicios */
 
-/* 1º breck point tamaño tablet*/
-@media (max-width:768px){
 
+/* 1º breck point tamaño tablet*/
+@media (max-width:768px){ 
+    .navBar li a{font-size: 24px;}
 }
+@media (max-width:540px){
+    .navBar li a{ font-size: 18px;}
+}
+@media (max-width:440px){
+    .navBar{
+        flex-direction:column;
+        gap: 10px;
+        margin-right: 10px;
+    }
+}
+
 /* 2º breck point tamaño Celular*/
 @media screen and (max-width:360px){
-    .menu-NavBar{
-        display: none;
+    /* cambio Header */
+    .header{
+        width: 100%;
+        height:auto;
+        /* contenedor-grid */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:auto;
+        grid-template-areas: 
+        "logo logo"
+        "menu menu"
+        "menu menu";
+    }
+    .logo{
+        grid-area: logo;
+        justify-self:center;
+        margin: 10px;
     }
     .navBar{
-        /* display: none; */
+        flex-direction:row;
+        gap: 10px;
+        margin-right: 10px;
+        flex-wrap: wrap;
+    }
+
+    /* cambios en el main */
+    .contactoFondo{
+        height: 130px;
+    }
+
+    /* cambios en el Footer */
+    .footer{
+        height: auto;
+        /* contenedor-grid */
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "copyR redes"
+        "ssn ssn"
+        "matricula qr";
+        align-items: center;
+        gap: 5px;
+    }
+    .copyR{
+        justify-self:center;
+        text-align: center;;
+    }
+    .redes{
+        grid-area: redes;
+        justify-self: center;
+    }
+    .qr{
+        grid-area: qr;
+        justify-self: center;
+    }
+    .qrAfip{
+        width: 45px;
+        height: 68px;
+    }
+    .matricula{
+        grid-area: matricula;
+        justify-self:center;
+        text-align: center;
     }
 }
