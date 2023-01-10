@@ -321,11 +321,11 @@ font-family: 'Roboto', sans-serif;
 
 }
 /* 2º breck point tamaño Celular*/
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
     .menu-NavBar{
         display: none;
     }
     .navBar{
-        display: none;
+        /* display: none; */
     }
 }
