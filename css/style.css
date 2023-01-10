@@ -331,7 +331,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* 2º breck point tamaño Celular*/
-@media screen and (max-width:360px){
+@media screen and (max-width:420px){
     /* cambio Header */
     .header{
         width: 100%;
