@@ -412,6 +412,7 @@ font-family: 'Roboto', sans-serif;
         width: 45px;
         height: 68px;
     }
+    
     .matricula{
         grid-area: matricula;
         justify-self:center;
