@@ -1,5 +1,82 @@
-
-@media (max-width:320px){
-
-
+@media screen and (max-width:420px){
+    .header{
+        width: 100%;
+        height:auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:auto;
+        grid-template-areas: 
+        "logo logo"
+        "menu menu"
+        "menu menu";
+    }
+    .logo{
+        grid-area: logo;
+        justify-self:center;
+        margin: 10px;
+    }
+    .navBar{
+        flex-direction:row;
+        gap: 10px;
+        margin-right: 10px;
+        flex-wrap: wrap;
+    }
+    .contactoFondo{
+        height: 130px;
+    }
+    .contactoMedio{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "mapaGoogle"
+        "contactoTexto";
+        justify-content: center;
+    }
+    .mapaGoogle{
+        width: 352px;
+        height: 277px;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+    }
+    .quienEsLaura{
+        grid-area: mapaGoogle;
+        width: 328px;
+        height: 300px;
+    }
+    
+    .footer{
+        height: auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "copyR redes"
+        "ssn ssn"
+        "matricula qr";
+        align-items: center;
+        gap: 5px;
+    }
+    .copyR{
+        justify-self:center;
+        text-align: center;;
+    }
+    .redes{
+        grid-area: redes;
+        justify-self: center;
+    }
+    .qr{
+        grid-area: qr;
+        justify-self: center;
+    }
+    .qrAfip{
+        width: 45px;
+        height: 68px;
+    }
+    .matricula{
+        grid-area: matricula;
+        justify-self:center;
+        text-align: center;
+    }
 }
