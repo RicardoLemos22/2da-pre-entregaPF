@@ -1,0 +1,27 @@
+header{
+    background-color: aqua;
+    background-image: url("../../assets/img/mapa.png");
+    @include grid(center, end, repeat(3,1fr));
+}
+
+.navBar{
+    list-style: none;
+    li{
+        font-size: 20px;
+        a{
+            text-decoration: none;
+            font-family: $typo-principal;
+            color: black;
+            &:hover{
+                color: white;
+            }
+        }
+    }
+}
+
+.section2{
+    @extend .navBar;
+    li{
+        font-size: 40px;
+    }
+}
