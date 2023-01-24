@@ -10,5 +10,12 @@
     flex-direction: $direct;
     justify-content: $justify;
     align-items: $align;
+}
 
+@mixin typoFooter{
+    text-align: right;
+    font-family: $typo-principal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
 }

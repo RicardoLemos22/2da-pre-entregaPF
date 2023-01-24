@@ -36,8 +36,7 @@
     justify-self:right;
     align-self:center;
     h2{
-        font-weight: normal;
-        text-align: right;
+        @include typoFooter
     }
 }
 .redes{
@@ -52,6 +51,9 @@
     grid-area: matricula;
     justify-self:right;
     text-align: right;
+    h2{
+        @include typoFooter
+    }
 }
 .qr{
     grid-area: qr;

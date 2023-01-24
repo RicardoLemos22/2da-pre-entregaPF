@@ -21,6 +21,13 @@
     justify-self:right;
     z-index: 1;
 }
+.seccion-actual{
+    color: $naranja;
+}
+.seccion-otra{
+    color:#ffffff;
+    text-decoration: none;
+}
 .navBar{
     display: flex;
     flex-direction: row;
@@ -34,9 +41,7 @@
         list-style-type: none;
         list-style-position: outside;
         a{
-            text-decoration: none;
             text-transform: capitalize;
-            color:#FFFFFF;
             font-family: $typo-principal;
             font-style: normal;
             font-weight: 400;

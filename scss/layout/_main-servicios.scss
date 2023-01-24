@@ -1,0 +1,9 @@
+.servicioFondo1{
+    background-color:$logo-FetPat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "mapaGoogle contactoTexto";
+    justify-content: center;
+}
