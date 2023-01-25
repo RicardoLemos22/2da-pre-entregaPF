@@ -19,3 +19,17 @@
     font-weight: 500;
     font-size: 15px;
 }
+
+@mixin tituloNaranja{
+    font-family: $typo-principal;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: $naranja;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.324);
+    text-align: center;
+    position:relative;
+    top: -80px;
+}

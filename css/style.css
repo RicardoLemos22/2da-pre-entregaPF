@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 * {
   margin: 0;
@@ -149,7 +148,6 @@
 .homeSeccServicios {
   width: 100%; }
   .homeSeccServicios h2 {
-    /* Conocé mas de nuestros servicios */
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -157,7 +155,7 @@
     line-height: 47px;
     color: #F2C335;
     -webkit-text-stroke: 1px black;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.324);
     text-align: center;
     position: relative;
     top: -80px; }
@@ -271,13 +269,120 @@
   width: 100%;
   height: 60px; }
 
-.servicioFondo1 {
+.cotizaFondo {
+  background-image: url("../assets/img/fondo-cotiza.png");
+  width: 100%;
+  height: 230px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover; }
+
+.titulo-formulario {
+  margin-left: 60px;
+  margin-right: 40px;
+  margin-top: 40px;
+  padding-top: 20px;
+  grid-area: titform; }
+  .titulo-formulario h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #F2C335;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.324);
+    text-align: center;
+    position: relative;
+    top: -80px;
+    top: 0px;
+    font-size: 35px;
+    text-align: left; }
+  .titulo-formulario h2 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 56px;
+    color: #F2F2F2;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left; }
+
+.cotiza-formulario {
+  background-color: #010440;
+  width: 100%;
+  height: 230px;
+  grid-area: fomul;
+  justify-self: center;
+  align-self: center;
+  color: #F2F2F2; }
+
+.cotizaMedio {
+  width: 100%;
+  height: 300px;
   background-color: #0055A2;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  grid-template-areas: "mapaGoogle contactoTexto";
+  grid-template-areas: "titform fomul";
   justify-content: center; }
+
+.serv-card {
+  background-color: #0055A2;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "simg stexto stexto stexto stexto stexto";
+  justify-content: center;
+  width: 100%;
+  height: 220px;
+  margin-bottom: 20px; }
+
+.serv-img {
+  grid-area: simg;
+  align-items: center;
+  justify-content: center; }
+  .serv-img img {
+    justify-self: center;
+    align-self: center; }
+
+.serviciosH1 {
+  width: 100%;
+  height: 100px;
+  display: grid;
+  align-items: center;
+  justify-content: center; }
+  .serviciosH1 h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #F2C335;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.324);
+    text-align: center;
+    position: relative;
+    top: -80px;
+    top: 0px;
+    font-size: 35px; }
+
+.serv-card-texto {
+  grid-area: stexto;
+  justify-self: center;
+  align-self: center;
+  background-color: #010440;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
+  color: #F2F2F2;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
 
 @media (max-width: 768px) {
   .navBar li a {
