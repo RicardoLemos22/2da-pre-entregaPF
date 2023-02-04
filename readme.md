@@ -1,7 +1,7 @@
 # BarVa Seguros y Gestoria Integral Automotor
 
 > Este proyecto es para el curso de desarrollo web de CoderHouse, le hice un sitio web a una amiga que es productora de seguros y gestora automotor. Tenia registrado el dominio y hosting comprado usando solamente las casillas de correos. En la web solo tiene presencia en Instagram y Facebook.
-https://barva.com.ar/
+<br>Sitio web: https://barva.com.ar/
 
 ---
 ## Tecnologías y herramientas aprendidas en el curso
