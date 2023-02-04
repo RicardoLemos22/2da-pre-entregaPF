@@ -1,26 +1,26 @@
 @media screen and (max-width:420px){
-    .header{
-        width: 100%;
-        height:auto;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows:auto;
-        grid-template-areas: 
-        "logo logo"
-        "menu menu"
-        "menu menu";
-    }
-    .logo{
-        grid-area: logo;
-        justify-self:center;
-        margin: 10px;
-    }
-    .navBar{
-        flex-direction:row;
-        gap: 10px;
-        margin-right: 10px;
-        flex-wrap: wrap;
-    }
+    // .header{
+    //     width: 100%;
+    //     height:auto;
+    //     display: grid;
+    //     grid-template-columns: repeat(2,1fr);
+    //     grid-template-rows:auto;
+    //     grid-template-areas: 
+    //     "logo logo"
+    //     "menu menu"
+    //     "menu menu";
+    // }
+    // .logo{
+    //     grid-area: logo;
+    //     justify-self:center;
+    //     margin: 10px;
+    // }
+    // .navBar{
+    //     flex-direction:row;
+    //     gap: 10px;
+    //     margin-right: 10px;
+    //     flex-wrap: wrap;
+    // }
     .contactoFondo{
         height: 130px;
     }
