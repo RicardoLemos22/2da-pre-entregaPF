@@ -4,27 +4,9 @@
   padding: 0;
   box-sizing: border-box; }
 
-.header {
-  background-color: #010440;
-  width: 100%;
-  height: 130px;
-  /* contenedor-grid */
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 130px;
-  grid-template-areas: "logo menu menu menu menu menu";
-  justify-content: center;
-  align-items: center; }
-
-.logo {
-  grid-area: logo;
-  justify-self: left;
-  z-index: 1; }
-
-.menu-NavBar {
-  grid-area: menu;
-  justify-self: right;
-  z-index: 1; }
+.BV-header {
+  background-color: #010440 !important;
+  height: 130px; }
 
 .seccion-actual {
   color: #F2C335; }
@@ -33,25 +15,22 @@
   color: #ffffff;
   text-decoration: none; }
 
-.navBar {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  height: 100%;
-  gap: 20px;
-  margin-right: 20px;
-  justify-content: space-evenly;
-  align-items: center; }
-  .navBar li {
-    list-style-type: none;
-    list-style-position: outside; }
-    .navBar li a {
-      text-transform: capitalize;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 28px;
-      line-height: 38px; }
+.BV-menu {
+  background-color: #010440; }
+
+.BV-navBar li a {
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px; }
+
+.BV-navBar li a:hover {
+  color: #F2C335; }
+
+.navbar-toggler {
+  background-color: #ffffff; }
 
 .lineaSeparadora {
   display: block;
@@ -120,7 +99,7 @@
   padding-left: 20px; }
 
 .qrAfip {
-  width: 60px;
+  width: 66px;
   height: 90px; }
 
 .logoRedes {
