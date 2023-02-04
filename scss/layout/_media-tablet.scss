@@ -1,13 +1,45 @@
 @media (max-width:768px){ 
-    .BV-navBar li a{font-size: 24px;}
+    .BV-navBar li a{
+        font-size: $font-Text;
+    }
+    .contactoMedio{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "mapaGoogle"
+        "contactoTexto";
+    }
+    .mapaGoogle{
+        width: 95%;
+    }
+    .footer{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+        "copyR redes ssn ssn"
+        "matricula matricula qr qr";
+        align-items: center;
+        gap: 5px;
+    }
+    .quienes-Son{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "foto"
+        "texto";
+    }
+    .quienes-Fondo{
+        height: 150px;
+    }
+    .quienes-Foto{
+        width: 250px;
+        height: 229px;
+        margin: 10px;
+    }
 }
-// @media (max-width:540px){
-//     .BV-navBar li a{ font-size: 18px;}
-// }
-// @media (max-width:440px){
-//     .navBar{
-//         flex-direction:column;
-//         gap: 10px;
-//         margin-right: 10px;
-//     }
-//}

@@ -1,6 +1,6 @@
 .BV-header{
     background-color: $azul-fondo !important;
-    height: 130px;
+    height: 80px;
 }
 .seccion-actual{
     color: $naranja;
@@ -11,6 +11,7 @@
 }
 .BV-menu{
     background-color: $azul-fondo;
+    z-index: 10;
 }
 .BV-navBar{
     li{
@@ -21,7 +22,7 @@
             font-family: $typo-principal;
             font-style: normal;
             font-weight: 400;
-            font-size: 28px;
+            font-size: $font-Subtit;
             line-height: 38px;
         }
         a:hover {

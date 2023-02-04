@@ -2,13 +2,15 @@
 .contactoFondo{
     background-image:url("../assets/img/contacto-fedpat.png");
     width: 100%;
-    height: 230px;
+    height: 200px;
     background-repeat: no-repeat;
-    background-position:bottom;
+    background-position:top;
     background-size: cover;
 }
 .contactoMedio{
     background-color:$logo-FetPat;
+    width: 100%;
+    height: 350px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -17,14 +19,11 @@
     justify-content: center;
 }
 .mapaGoogle{
+    width: 90%;
     grid-area: mapaGoogle;
-    justify-self: center;    
-    background-image:url("../assets/img/mapa.png"); 
-    width: 617px;
-    height: 485px;
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
+    justify-self: center;
+    position: relative;
+    top: -30px;
 }
 .contactoTexto{
     grid-area: contactoTexto;
@@ -35,7 +34,7 @@
     font-family: $typo-principal;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: $font-Text;
     line-height: 26px;
     text-align:center;
     color: $gris;
@@ -45,5 +44,5 @@
 .contactoBase{
     background-color: $logo-FetPat;
     width: 100%;
-    height: 60px;
+    height: 40px;
 }
