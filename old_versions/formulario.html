@@ -5,68 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
 </head>
 <body>
+
     <main>
         <form action="" method="post">
-            <fieldset>
-                <!-- <legend>Datos de la mascota</legend> -->
-                <label for="nombre">
-                    <span>Nombre:</span>
-                    <input type="text" id="nombre" placeholder="ingrese el nombre de la mascota">
-                </label>
-                <label for="apellido">
-                    <span>Apellido:</span>
-                    <input type="text" id="apellido" placeholder="ingrese el apellido de la mascota">
-                </label>
-                <label for="mail">
-                    <span>Correo:</span>
-                    <input type="email" id="email" placeholder="ingrese su correo electronico">
-                </label>
-                <label for="clave">
-                    <span>Clave:</span>
-                    <input type="password" id="clave" placeholder="ingrese su contraseña">
-                </label>
-                <label for="fecha">
-                    <span>Nacimiento:</span>
-                    <input type="date" id="fecha" placeholder="ingrese fecha de nacimiento">
-                </label>
-            </fieldset>
-            <fieldset>
-                <legend>Datos de los padres</legend>
-                <label for="small">Samll</label>
-                <input type="radio" id="small" name="talle" value="S">
+            <fieldset class="formulario1">
+                <div>
+                    <label for="tipoSeguro">Elegí el seguro que queres cotizar: </label>
+                    <select name="tipoSeguro" id="tipoSeguro">
+                        <option value="nn"></option>
+                        <option value="tipo-Civil">Responsabilidad civil ampliada</option>
+                        <option value="tipo-ART">Accidentes personales ART</option>
+                        <option value="tipo-Movilidad">Seguros de bicicletas/monopatin</option>
+                        <option value="tipo-Auto">Seguros de vehículos</option>
+                        <option value="tipo-Hogar">Seguros de Hogar / icendio</option>
+                        <option value="tipo-Vida">Seguros de vida</option>
+                        <option value="tipo-Gestor">Gestoría automotor</option>
+                    </select>
+                </div>
+                <div><input class="item1" type="text" id="nombre" placeholder="Ingresá tu nombre completo"></div>
+                <div><input class="item1" type="number" id="edad" placeholder="Ingresá tu edad"></div>
+                <div><input class="item1" type="text" id="telefono" placeholder="Tu número de teléfono sin 0 ni 15"></div>
+                <div><input class="item1" type="email" id="email" placeholder="Comple tu correo electrónico"></div>
                 
-                <label for="med">Medium</label>
-                <input type="radio" id="med"  name="talle" value="M">
-
-                <label for="large">Large</label>
-                <input type="radio" id="large"  name="talle" value="L">
-
-                <label for="xlarge">XL</label>
-                <input type="radio" id="xlarge" name="talle" value="XL">
-                <p></p>
-                
-                <input type="checkbox" id="acepta" name="acepta" value="1">
-                <label for="acepta">Acepta terminos y condiciones</label>
-
-                <input type="submit">
-                <input type="reset" value="reset">
-
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar cotización">
             </fieldset>
-        </form>
+        </form>        
+        
     </main>
-<table>
-    <tr> <!-- inicio de fila 1-->
-        <td>F1 C1</td>
-        <td>F1 C2</td>
-        <td>F1 C3</td>
-    </tr>
-    <tr> <!-- inicio de fila 2-->
-        <td>F2 C1</td>
-        <td>F2 C2</td>
-        <td>F2 C3</td>
-    </tr>
-</table>
+
 </body>
 </html>

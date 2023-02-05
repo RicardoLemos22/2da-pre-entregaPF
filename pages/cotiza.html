@@ -67,36 +67,31 @@
                 <h2>Completa tus datos, envialos y te llamamos!</h2>
             </div>
             <div class="cotiza-formulario">
-                <form action="" method="POST">
+                <form action="" method="post">
                     <fieldset>
-                        <label for="tipo-seguro">
-                            <input type="droplist" id="tipo-seguro" placeholder="Elegí el seguro que querés cotizar">
-                        </label>
-
-
-
-                        <div class="form-group">
-                            <label for="nombre">Nombre</label>
-                            <input type="text" class="form-control" name='nombre' id="nombre" placeholder="nombre...">
+                        <div>
+                            <label for="tipoSeguro">Elegí el seguro que queres cotizar:</label><br>
+                            <select class="itemFormul" name="tipoSeguro" id="tipoSeguro">
+                                <option value="nn"></option>
+                                <option value="tipo-Civil">Responsabilidad civil ampliada</option>
+                                <option value="tipo-ART">Accidentes personales ART</option>
+                                <option value="tipo-Movilidad">Seguros de bicicletas/monopatin</option>
+                                <option value="tipo-Auto">Seguros de vehículos</option>
+                                <option value="tipo-Hogar">Seguros de Hogar / icendio</option>
+                                <option value="tipo-Vida">Seguros de vida</option>
+                                <option value="tipo-Gestor">Gestoría automotor</option>
+                            </select>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" name='email' id="email" placeholder="email...">
+                        <div><input class="itemFormul" type="text" id="nombre" placeholder="Ingresá tu nombre completo"></div>
+                        <div><input class="itemFormul" type="number" id="edad" placeholder="Ingresá tu edad"></div>
+                        <div><input class="itemFormul" type="text" id="telefono" placeholder="Tu número de teléfono sin 0 ni 15"></div>
+                        <div><input class="itemFormul" type="email" id="email" placeholder="Comple tu correo electrónico"></div>
+                        <div class="botones">
+                            <div><input type="reset" value="Limpiar"></div>
+                            <div><input type="submit" value="Enviar cotización"></div>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleTextarea">Mensaje</label>
-                            <textarea class="form-control" name='mensaje' id="mensaje" rows="3"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="checkbox" required> Acepto la política de privacidad.
-                        </div>
-                        <button class="btn btn-primary" type="submit">Enviar</button>
-                        <input type="submit">
-                        <input type="reset" value="reset">
                     </fieldset>
-
-                    
-                </form>
+                </form>   
 
             </div>
         </section>
