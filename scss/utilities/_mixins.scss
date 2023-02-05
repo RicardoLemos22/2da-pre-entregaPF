@@ -33,3 +33,31 @@
     position:relative;
     //top: -80px;
 }
+
+@mixin card-Servicio{
+    background-color:$logo-FetPat;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 20px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "simg stexto stexto stexto xx";
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 220px;
+    margin-bottom: 50px;
+    margin-left: 4vw;
+    overflow: hidden;
+}
+
+@mixin typo-Blanca{
+    font-family: $typo-principal;
+    font-style: normal;
+    font-weight: 400;
+    font-size: $font-Text;
+    line-height: 26px;
+    text-align:center;
+    color: $gris;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

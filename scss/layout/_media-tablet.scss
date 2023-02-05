@@ -79,4 +79,22 @@
             font-size: $font-Tit;
         }
     }
+    .serv-card{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "simg stexto stexto";
+        margin-left: 0px;
+        margin-right: 0px;
+        width: auto;
+        height: auto;
+    }
+    .serv-card-Der{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "stexto stexto simg";
+        margin-left: 0px;
+        margin-right: 0px;
+        width: auto;
+        height: auto;
+    }
 }

@@ -46,7 +46,8 @@
   clear: both;
   border: none;
   border-top: 1px solid #aaaaaa;
-  border-bottom: 1px solid #ffffff; }
+  border-bottom: 1px solid #ffffff;
+  overflow: auto; }
 
 .footer {
   width: 100%;
@@ -374,7 +375,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  overflow: auto; }
   .servicios-Fondo h1 {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -389,24 +391,67 @@
     font-size: 2.5rem;
     text-align: center; }
 
+.servicios-Intro {
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+  background-color: #010440;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 26px;
+  text-align: center;
+  color: #F2F2F2;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .servicios-Intro h2 {
+    font-size: 1.5rem; }
+  .servicios-Intro p {
+    font-size: 1.125rem;
+    text-align: justify;
+    margin: 20px; }
+
 .serv-card {
   background-color: #0055A2;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr 20px;
   grid-template-rows: auto;
-  grid-template-areas: "simg stexto stexto stexto stexto stexto";
+  grid-template-areas: "simg stexto stexto stexto xx";
   justify-content: center;
-  width: 100%;
-  height: 220px;
-  margin-bottom: 20px; }
-
-.serv-img {
-  grid-area: simg;
   align-items: center;
-  justify-content: center; }
-  .serv-img img {
-    justify-self: center;
-    align-self: center; }
+  width: auto;
+  height: 220px;
+  margin-bottom: 50px;
+  margin-left: 4vw;
+  overflow: hidden; }
+
+.serv-card-Der {
+  background-color: #0055A2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 20px;
+  grid-template-rows: auto;
+  grid-template-areas: "simg stexto stexto stexto xx";
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 220px;
+  margin-bottom: 50px;
+  margin-left: 4vw;
+  overflow: hidden;
+  grid-template-columns: 20px 1fr 1fr 1fr 1fr;
+  grid-template-areas: "xx stexto stexto stexto simg";
+  margin-left: 0vw;
+  margin-right: 4vw; }
+
+.serv-card-img {
+  grid-area: simg;
+  align-self: center;
+  justify-self: center; }
+  .serv-card-img img {
+    width: auto;
+    height: auto; }
 
 .serv-card-texto {
   grid-area: stexto;
@@ -417,12 +462,13 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 1.125rem;
   line-height: 26px;
-  text-align: left;
+  text-align: center;
   color: #F2F2F2;
   border: 1px solid #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: justify; }
 
 @media (max-width: 768px) {
   .BV-navBar li a {
@@ -478,13 +524,33 @@
     height: 150px;
     background-size: contain; }
     .servicios-Fondo h1 {
-      font-size: 2rem; } }
+      font-size: 2rem; }
+  .serv-card {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "simg stexto stexto";
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+    height: auto; }
+  .serv-card-Der {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "stexto stexto simg";
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+    height: auto; } }
 
 @media screen and (max-width: 576px) {
   .servicios-Fondo {
     height: 100px; }
     .servicios-Fondo h1 {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem; }
+  .serv-card {
+    grid-template-columns: 1fr;
+    grid-template-areas: "simg" "stexto"; }
+  .serv-card-Der {
+    grid-template-columns: 1fr;
+    grid-template-areas: "simg" "stexto"; } }
 
 @media screen and (max-width: 440px) {
   .contactoFondo {

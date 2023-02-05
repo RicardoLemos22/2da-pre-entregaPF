@@ -5,6 +5,18 @@
             font-size: $font-Subtit;
         }
     }
+    .serv-card{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "simg"
+        "stexto";
+    }
+    .serv-card-Der{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "simg"
+        "stexto";
+    }
 }
 
 @media screen and (max-width:440px){
