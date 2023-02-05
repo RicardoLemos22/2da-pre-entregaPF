@@ -135,7 +135,7 @@
     line-height: 47px;
     color: #F2C335;
     -webkit-text-stroke: 1px black;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.324);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
     text-align: center;
     position: relative; }
 
@@ -327,7 +327,7 @@
     line-height: 47px;
     color: #F2C335;
     -webkit-text-stroke: 1px black;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.324);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
     text-align: center;
     position: relative;
     text-align: left;
@@ -365,6 +365,30 @@
   display: flex;
   justify-content: space-around; }
 
+.servicios-Fondo {
+  background-image: url("../assets/img/fondo_serv1.png");
+  width: 100%;
+  height: 200px;
+  background-repeat: repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; }
+  .servicios-Fondo h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 47px;
+    color: #F2C335;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+    text-align: center;
+    position: relative;
+    font-size: 2.5rem;
+    text-align: center; }
+
 .serv-card {
   background-color: #0055A2;
   display: grid;
@@ -383,26 +407,6 @@
   .serv-img img {
     justify-self: center;
     align-self: center; }
-
-.serviciosH1 {
-  width: 100%;
-  height: 100px;
-  display: grid;
-  align-items: center;
-  justify-content: center; }
-  .serviciosH1 h1 {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 47px;
-    color: #F2C335;
-    -webkit-text-stroke: 1px black;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.324);
-    text-align: center;
-    position: relative;
-    top: 0px;
-    font-size: 35px; }
 
 .serv-card-texto {
   grid-area: stexto;
@@ -469,7 +473,18 @@
     background-position: center; }
   .cotizaMedio {
     grid-template-columns: 1fr;
-    grid-template-areas: "titform" "fomul"; } }
+    grid-template-areas: "titform" "fomul"; }
+  .servicios-Fondo {
+    height: 150px;
+    background-size: contain; }
+    .servicios-Fondo h1 {
+      font-size: 2rem; } }
+
+@media screen and (max-width: 576px) {
+  .servicios-Fondo {
+    height: 100px; }
+    .servicios-Fondo h1 {
+      font-size: 1.5rem; } }
 
 @media screen and (max-width: 440px) {
   .contactoFondo {

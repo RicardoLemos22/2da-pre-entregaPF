@@ -1,3 +1,12 @@
+@media screen and (max-width:576px){
+    .servicios-Fondo{
+        height: 100px;
+        h1{
+            font-size: $font-Subtit;
+        }
+    }
+}
+
 @media screen and (max-width:440px){
     .contactoFondo{
         height: 130px;
@@ -58,4 +67,8 @@
     .cotizaFondo{
         height: 100px;
     }
+
+
+
 }
+

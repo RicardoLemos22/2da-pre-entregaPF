@@ -1,3 +1,20 @@
+.servicios-Fondo{
+    background-image:url("../assets/img/fondo_serv1.png");
+    width: 100%;
+    height: 200px;
+    background-repeat:repeat;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        @include tituloNaranja;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    margin-bottom: 20px;
+}
+
 .serv-card{
     background-color:$logo-FetPat;
     display: grid;
@@ -19,18 +36,7 @@
         align-self: center;
     }
 }
-.serviciosH1{
-    width: 100%;
-    height: 100px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    h1{
-        @include tituloNaranja;
-        top: 0px;
-        font-size: 35px;
-    }
-}
+
 .serv-card-texto{
     grid-area: stexto;
     justify-self: center;
