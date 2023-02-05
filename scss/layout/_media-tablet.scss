@@ -42,4 +42,13 @@
         height: 229px;
         margin: 10px;
     }
+
+    .titulo-formulario{
+        h1{
+            font-size: $font-Subtit;
+        }
+        h2{
+            font-size: $font-Text;
+        }
+    }
 }
