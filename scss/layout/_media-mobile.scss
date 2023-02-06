@@ -17,6 +17,38 @@
         "simg"
         "stexto";
     }
+
+    .home-Titulo{
+        h1{
+            font-size: $font-Tit;
+            padding-top: 10px;
+        }
+    }
+
+    .home-Servicios{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "vCard1"
+        "vCard2"
+        "vCard3"
+        "vCard4";
+    }
+
+    .home-Logos{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "fedPat"
+        "triunfo"
+        "sanCris";
+    }
+    .home-Logo-FedPat{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .home-Logo-SanCris{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width:440px){
@@ -44,18 +76,7 @@
         align-items: center;
         gap: 5px;
     }
-    .copyR{
-        // justify-self:center;
-        // text-align: center;;
-    }
-    .redes{
-        // grid-area: redes;
-        // justify-self: center;
-    }
-    .qr{
-        // grid-area: qr;
-        // justify-self: center;
-    }
+
     .qrAfip{
         width: 45px;
         height: 68px;
@@ -80,7 +101,18 @@
         height: 100px;
     }
 
+    .home-Titulo{
+        height: 250px;
+        h1{
+            padding-top: 10px;
+        }
+    }
 
-
+    .home-Logo-FedPat{
+        max-width: 200px;
+    }
+    .home-Logo-SanCris{
+        max-width: 200px;
+    }
 }
 

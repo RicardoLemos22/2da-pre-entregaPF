@@ -97,4 +97,45 @@
         width: auto;
         height: auto;
     }
+
+    
+    .home-Titulo{
+        height: 320px;
+        h1{
+            font-size: $font-Tit-h1;
+            padding-top: 15px;
+        }
+    }
+    .home-SubTitulo{
+        h2{
+            font-size: $font-Tit;
+            }
+    }
+
+    .home-Servicios{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "vCard1 vCard2"
+        "vCard3 vCard4";
+    }
+    .cardServcios4{
+        display: inline-block;
+    }
+    .home-Logos{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: 
+        "fedPat fedPat triunfo"
+        "sanCris sanCris sanCris";
+        height: auto;
+    }
+    .home-Logo-FedPat{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 260px;
+    }
+    .home-Logo-SanCris{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 260px;
+    }
 }
