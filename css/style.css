@@ -717,7 +717,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "vCard1 vCard2" "vCard3 vCard4"; }
   .cardServcios4 {
-    display: inline-block; }
+    display: unset; }
   .home-Logos {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "fedPat fedPat triunfo" "sanCris sanCris sanCris";
@@ -804,3 +804,10 @@
     max-width: 200px; }
   .home-Logo-SanCris {
     max-width: 200px; } }
+
+@media screen and (min-width: 1200px) {
+  .home-Servicios {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "vCard1 vCard2 vCard3 vCard4"; }
+  .cardServcios4 {
+    display: unset; } }
