@@ -24,7 +24,7 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 38px; }
 
 .BV-navBar li a:hover {
@@ -175,7 +175,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     line-height: 21px;
     color: #F2F2F2;
     mix-blend-mode: normal;
@@ -188,7 +188,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     line-height: 21px;
     color: #F2F2F2;
     mix-blend-mode: normal;
@@ -216,7 +216,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     line-height: 21px;
     color: #F2F2F2;
     mix-blend-mode: normal;
@@ -229,7 +229,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     line-height: 21px;
     color: #F2F2F2;
     mix-blend-mode: normal;
@@ -257,7 +257,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     line-height: 21px;
     color: #F2F2F2;
     mix-blend-mode: normal;
@@ -270,7 +270,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     line-height: 21px;
     color: #F2F2F2;
     mix-blend-mode: normal;
@@ -299,7 +299,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     line-height: 21px;
     color: #F2F2F2;
     mix-blend-mode: normal;
@@ -312,7 +312,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     line-height: 21px;
     color: #F2F2F2;
     mix-blend-mode: normal;
@@ -399,7 +399,7 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   line-height: 26px;
   text-align: center;
   color: #F2F2F2;
@@ -409,16 +409,16 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 56px;
     color: #F2F2F2;
     -webkit-text-stroke: 1px black;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center; }
   .quienes-texto h2 {
-    font-size: 1.125rem; }
+    font-size: 1.2rem; }
   .quienes-texto p {
-    font-size: 1.125rem; }
+    font-size: 1.2rem; }
 
 .contactoFondo {
   background-image: url("../assets/img/contacto-fedpat.png");
@@ -454,7 +454,7 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   line-height: 26px;
   text-align: center;
   color: #F2F2F2;
@@ -504,7 +504,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 56px;
     color: #F2F2F2;
     -webkit-text-stroke: 1px black;
@@ -567,16 +567,16 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   line-height: 26px;
   text-align: center;
   color: #F2F2F2;
   border: 1px solid #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   .servicios-Intro h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .servicios-Intro p {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     text-align: justify;
     margin: 20px; }
 
@@ -629,7 +629,7 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   line-height: 26px;
   text-align: center;
   color: #F2F2F2;
@@ -639,7 +639,7 @@
 
 @media (max-width: 768px) {
   .BV-navBar li a {
-    font-size: 1.125rem; }
+    font-size: 1.2rem; }
   .contactoMedio {
     width: 100%;
     height: auto;
@@ -674,10 +674,10 @@
   .titulo-formulario {
     margin: 10px; }
     .titulo-formulario h1 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       text-align: center; }
     .titulo-formulario h2 {
-      font-size: 1.125rem;
+      font-size: 1.2rem;
       text-align: center; }
   .itemFormul {
     width: 90vw; }
@@ -735,7 +735,7 @@
   .servicios-Fondo {
     height: 100px; }
     .servicios-Fondo h1 {
-      font-size: 1.5rem; }
+      font-size: 1.6rem; }
   .serv-card {
     grid-template-columns: 1fr;
     grid-template-areas: "simg" "stexto"; }
@@ -745,9 +745,12 @@
   .home-Titulo h1 {
     font-size: 2rem;
     padding-top: 10px; }
+  .home-SubTitulo {
+    top: -60px; }
   .home-Servicios {
     grid-template-columns: 1fr;
-    grid-template-areas: "vCard1" "vCard2" "vCard3" "vCard4"; }
+    grid-template-areas: "vCard1" "vCard2" "vCard3" "vCard4";
+    top: 0px; }
   .home-Logos {
     grid-template-columns: 1fr;
     grid-template-areas: "fedPat" "triunfo" "sanCris"; }
